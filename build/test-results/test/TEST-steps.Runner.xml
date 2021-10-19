@@ -3,14 +3,14 @@
   <properties/>
   <system-out><![CDATA[Feature: Consulta de precos
 
-  Scenario: Consultar Ovo de Pascoa                         # Post.feature:2
-    Given que acesso a Wikipedia                            # Post.queAcessoAWikipedia()
-    When pesquiso palavra por "Ovo de Páscoa"               # Post.pesquisoPalavraPor(String)
-    Then exibe a expressao "Ovo de Páscoa" no tiulo da guia # Post.exibeAExpressaoNoTiuloDaGuia(String)
+  Scenario: Consultar Ovo de Pascoa                         ?[90m# Post.feature:2?[0m
+    ?[32mGiven ?[0m?[32mque acesso a Wikipedia?[0m                            ?[90m# Post.queAcessoAWikipedia()?[0m
+    ?[32mWhen ?[0m?[32mpesquiso palavra por "?[0m?[32m?[1mOvo de Páscoa?[0m?[32m"?[0m               ?[90m# Post.pesquisoPalavraPor(String)?[0m
+    ?[32mThen ?[0m?[32mexibe a expressao "?[0m?[32m?[1mOvo de Páscoa?[0m?[32m" no tiulo da guia?[0m ?[90m# Post.exibeAExpressaoNoTiuloDaGuia(String)?[0m
 
-1 Scenarios (1 skipped)
-3 Steps (3 skipped)
-0m0,000s
+1 Scenarios (?[32m1 passed?[0m)
+3 Steps (?[32m3 passed?[0m)
+0m7,233s
 
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>

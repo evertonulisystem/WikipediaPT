@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Scenario: Consultar Ovo de Pascoa" tests="4" skipped="3" failures="0" errors="0" timestamp="2021-10-19T20:22:17" hostname="DESKTOP-EUM" time="0.014">
+<testsuite name="Scenario: Consultar Ovo de Pascoa" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-10-19T22:25:02" hostname="DESKTOP-EUM" time="2.528">
   <properties/>
-  <testcase name="Given que acesso a Wikipedia" classname="Scenario: Consultar Ovo de Pascoa" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="When pesquiso palavra por &quot;Ovo de Páscoa&quot;" classname="Scenario: Consultar Ovo de Pascoa" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="Then exibe a expressao &quot;Ovo de Páscoa&quot; no tiulo da guia" classname="Scenario: Consultar Ovo de Pascoa" time="0.0">
-    <skipped/>
-  </testcase>
-  <testcase name="classMethod" classname="Scenario: Consultar Ovo de Pascoa" time="0.122"/>
+  <testcase name="Given que acesso a Wikipedia" classname="Scenario: Consultar Ovo de Pascoa" time="0.0"/>
+  <testcase name="When pesquiso palavra por &quot;Ovo de Páscoa&quot;" classname="Scenario: Consultar Ovo de Pascoa" time="0.0"/>
+  <testcase name="Then exibe a expressao &quot;Ovo de Páscoa&quot; no tiulo da guia" classname="Scenario: Consultar Ovo de Pascoa" time="0.001"/>
+  <testcase name="classMethod" classname="Scenario: Consultar Ovo de Pascoa" time="7.372"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[Starting ChromeDriver 94.0.4606.61 (418b78f5838ed0b1c69bb4e51ea0252171854915-refs/branch-heads/4606@{#1204}) on port 18966
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 19, 2021 7:24:59 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
 </testsuite>

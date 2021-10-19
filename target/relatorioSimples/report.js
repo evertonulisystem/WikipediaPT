@@ -6,6 +6,10 @@ formatter.feature({
   "id": "consulta-de-precos",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 2272371300,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 2,
   "name": "Consultar Ovo de Pascoa",
@@ -33,7 +37,8 @@ formatter.match({
   "location": "Post.queAcessoAWikipedia()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2443125500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -45,7 +50,8 @@ formatter.match({
   "location": "Post.pesquisoPalavraPor(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1798925200,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -57,6 +63,11 @@ formatter.match({
   "location": "Post.exibeAExpressaoNoTiuloDaGuia(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 6950700,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 711521800,
+  "status": "passed"
 });
 });

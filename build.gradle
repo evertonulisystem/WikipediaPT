@@ -28,6 +28,7 @@ task regressionTests(type: Test) { //T maiusculo
     include '**/Runner*'
     }
 
+
 task smokeTest(type: Test){
     include '**/Runner*' //mais de um Runner;.runner/compra
     exclude '**/RunnerBkp*' //** estrutura principal dosite classe que temn  ogailho que é runner..

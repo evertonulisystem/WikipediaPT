@@ -3,16 +3,39 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 2272371300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
         "line": 2,
         "name": "Consultar Ovo de Pascoa",
         "description": "",
         "id": "consulta-de-precos;consultar-ovo-de-pascoa",
+        "after": [
+          {
+            "result": {
+              "duration": 711521800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 2443125500,
+              "status": "passed"
             },
             "line": 3,
             "name": "que acesso a Wikipedia",
@@ -23,7 +46,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1798925200,
+              "status": "passed"
             },
             "line": 4,
             "name": "pesquiso palavra por \"Ovo de Páscoa\"",
@@ -40,7 +64,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 6950700,
+              "status": "passed"
             },
             "line": 5,
             "name": "exibe a expressao \"Ovo de Páscoa\" no tiulo da guia",
