@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Consultar Ovo de Pascoa",
+        "description": "",
+        "id": "consulta-de-precos;consultar-ovo-de-pascoa",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 3,
+            "name": "que acesso a Wikipedia",
+            "match": {
+              "location": "Post.queAcessoAWikipedia()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "pesquiso palavra por \"Ovo de Páscoa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ovo de Páscoa",
+                  "offset": 22
+                }
+              ],
+              "location": "Post.pesquisoPalavraPor(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "exibe a expressao \"Ovo de Páscoa\" no tiulo da guia",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ovo de Páscoa",
+                  "offset": 19
+                }
+              ],
+              "location": "Post.exibeAExpressaoNoTiuloDaGuia(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Consulta de precos",
+    "description": "",
+    "id": "consulta-de-precos",
+    "keyword": "Feature",
+    "uri": "Post.feature"
+  }
+]
